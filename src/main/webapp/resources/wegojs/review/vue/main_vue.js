@@ -1,7 +1,7 @@
 var main_vue = main_vue || {}
 main_vue = {
   review:()=>{return `	
-<div  ><button id = "create" >생성</button></div>
+<div  ><button id = "create" >생성우와아아아아</button></div>
 
   <section class="breadcrumb breadcrumb_bg">
         <div class="container">
