@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/changhost.css">
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/createhost.css">
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/star.css">
-<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/tourizmimg.css">
+<link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/tourizmimg.css">///
 
 
  <%--  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/crewcss/intro.css"> --%>
