@@ -1,3 +1,4 @@
+
 var review = review || {};
 review = (()=>{
  const WHEN_ERR = '호출하는 리뷰 js를 찾을 수 없습니다 .'
@@ -22,6 +23,7 @@ review = (()=>{
             $.getScript(detail),
             $.getScript(write),
             $.getScript(search),
+		
 			$.getScript(reviewmainvue),	
 
         ).done(() => {   
@@ -29,6 +31,7 @@ review = (()=>{
             move()
             movewrite()
             movesearch()
+            make()
            
             
         }).fail(() => {
@@ -63,6 +66,17 @@ review = (()=>{
 
         })
     }
+     let make =()=>{
+         $('#create').click(()=>{
+             $.getJSON(context+'/review/create/table',d=>{
+                 alert("성공!!"+d.msg)
+             })
+
+
+
+        })
+
+     }
 
 
     return { onCreate }

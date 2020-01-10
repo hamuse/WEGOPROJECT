@@ -25,6 +25,9 @@
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/star.css">
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/tourizmimg.css">///
 
+ <link href="<%=application.getContextPath()%>/resources/wegojs/review/css/agency.min.css" rel="stylesheet">
+ <link href="<%=application.getContextPath()%>/resources/wegojs/review/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
 
  <%--  <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/crewcss/intro.css"> --%>
 <script src="<%=application.getContextPath()%>/resources/wegojs/app.js"></script>
