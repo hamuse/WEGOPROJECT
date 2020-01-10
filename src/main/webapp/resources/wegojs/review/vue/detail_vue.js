@@ -19,13 +19,14 @@ detail_vue = {
                 <img class="img-fluid d-block mx-auto" src="/web/resources/wegojs/review/img/portfolio/06-full.jpg" alt="">
                 <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
+                <input type="text" style="width:100%" />
+                <a href="#" class="genric-btn primary small" style="width:100%">댓글달기</a>
+                  <li>a;lkdsjflakhgi;law</li>
+                  <li>ahgl;aksgk;lsadghlksadghs</li>
+                  <li>aldjghlaskdjhgljksadghsadkjgh</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
-                  Close Project</button>
+                
+
               </div>
             </div>
           </div>
