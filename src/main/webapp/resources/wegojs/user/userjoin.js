@@ -25,7 +25,7 @@ userjoin=(()=>{
 		}).fail(()=>{
 			alert(WHEN_ERR)
 		})
-	}//////////////////
+	}
 	let setContentView=()=>{
 		$(`#mainbody`).html(userjoin_vue.userjoin_body())
 	}
