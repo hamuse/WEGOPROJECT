@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/createhost.css">
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/star.css">
 <link rel="stylesheet" href="<%=application.getContextPath()%>/resources/wegocss/tourizmstyle/tourizmimg.css">///
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  <link href="<%=application.getContextPath()%>/resources/wegojs/review/css/agency.min.css" rel="stylesheet">
  <link href="<%=application.getContextPath()%>/resources/wegojs/review/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
@@ -91,6 +91,21 @@
 
 <script src="<%=application.getContextPath()%>/resources/wegojs/user/userjoin.js"></script>
 <script src="<%=application.getContextPath()%>/resources/wegojs/user/userjoin_vue.js"></script>
+
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hotelHome.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hVue/hotelMainVue.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hotelPay.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hVue/hotelPayVue.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hVue/hotelDetailVue.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hotelDetail.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hotelCompare.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hVue/hotelComVue.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hotelPay.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hVue/hotelPayVue.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hotelEnd.js"></script>
+<script src="<%=application.getContextPath()%>/resources/wegojs/hotel/hVue/hotelEndVue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 <body>
 <script>

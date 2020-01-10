@@ -108,16 +108,16 @@ mainVue = {
 '                                id="navbarSupportedContent">'+
 '                                <ul class="navbar-nav">'+
 '                                    <li  class="nav-item">'+
-'                                        <a id="hotelgo" class="nav-link" href="#" style=" font-size: 26px;">HOTEL</a>'+
+'                                        <a id="hotel_go" class="nav-link" href="#" style=" font-size: 26px;">HOTEL</a>'+
 '                                    </li>'+
 '                                    <li  class="nav-item">'+
 '                                        <a id="tourismgo" class="nav-link" href="#" style=" font-size: 26px;">TOURISM</a>'+
 '                                    </li>'+
-'                                    <li id="trafficgo" class="nav-item">'+
-'                                        <a  id="trafficgo" class="nav-link" href="#" style=" font-size: 26px;">TRAFFIC</a>'+
-'                                    </li>'+
+// '                                  /*   <li id="trafficgo" class="nav-item">'+
+// '                                        <a  id="trafficgo" class="nav-link" href="#" style=" font-size: 26px;">TRAFFIC</a>'+
+// '                                    </li>'+ */
 '                                    <li class="nav-item">'+
-'                                        <a   id="reviewgo" class="nav-link" href="#" style=" font-size: 26px;">REVIEW</a>'+
+'                                        <a   id="reviewgo" class="nav-link" href="#" style=" font-size: 26px;">gostargram</a>'+
 '                                    </li>'+
 // '                                    <li class="nav-item dropdown">'+
 // '                                        <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown"'+
@@ -143,7 +143,7 @@ mainVue = {
 // '                                        </div>'+
 // '                                    </li>'+ 
 '                                    <li  class="nav-item">'+
-'                                        <a id="mypage_btn" class="nav-link" href="#" style=" font-size: 26px;">MyPage</a>'+
+'                                        <a id="mypage_btn" class="nav-link" href="#" style=" font-size: 26px;">MYPAGE</a>'+
 '                                    </li>'+
 '                                </ul>'+
 '                            </div>'+

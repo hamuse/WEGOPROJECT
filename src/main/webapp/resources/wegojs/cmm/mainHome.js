@@ -8,6 +8,7 @@ mainHome = (() => {
     let tourizmjs; // tourizm
     let reviewjs; // review
     let loginjs,mypagejs,joinchoicejs;
+    let hotelMainVuejs, hotelHomejs,hotelDetailjs;
 
     let init = () => {
         context = $.ctx()
@@ -21,6 +22,9 @@ mainHome = (() => {
         loginjs = js + '/withcs/login.js'
         mypagejs = js + '/withcs/mypage.js'
         joinchoicejs = js + '/withcs/joinchoice.js'
+        hotelMainVuejs = js+'/hotel/hVue/hotelMainVue.js'
+      	hotelHomejs = js+'/hotel/hotelHome.js'
+      	hotelDetailjs = js+'/hotel/hotelDetail.js'
     }
     let onCreate = () => {
         init()
@@ -34,6 +38,9 @@ mainHome = (() => {
             $.getScript(loginjs),
             $.getScript(mypagejs),
             $.getScript(joinchoicejs),
+             $.getScript(hotelMainVuejs),
+            $.getScript(hotelHomejs),
+            $.getScript(hotelDetailjs),
         ).done(() => {
             setContentView()
             btnVowel()
@@ -93,6 +100,10 @@ mainHome = (() => {
             e.preventDefault
              joinchoice.onCreate()
               $('html').scrollTop(0);
+        })
+           $('#hotel_go').click(e=>{
+        	e.preventDefault()
+        	hotelHome.onCreate()
         })
     }
 
