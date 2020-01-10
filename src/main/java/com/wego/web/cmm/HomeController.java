@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * Handles requests for the application home page.
- */
+ * Handles requests for the application home page.hamusegaram
+ */  
 @Controller
 public class HomeController {
 	
