@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
- * Handles requests for the application home page.adf
+ * Handles requests for the application home page.adfadsf
  */  
 @Controller
 public class HomeController {
