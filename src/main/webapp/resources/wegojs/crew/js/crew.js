@@ -8,7 +8,7 @@ crew = (()=>{
 		context = $.ctx()
 		js = $.js()
 		crewVuejs = js+'/crew/vue/crewVue.js'
-		/*  */
+	
 	}
 	let onCreate =()=>{
 		init()
