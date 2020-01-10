@@ -1,6 +1,8 @@
 var main_vue = main_vue || {}
 main_vue = {
   review:()=>{return `	
+<div  ><button id = "create" >생성</button></div>
+
   <section class="breadcrumb breadcrumb_bg">
         <div class="container">
             <div class="row">
@@ -38,9 +40,7 @@ main_vue = {
                                       </div>                                    
                                   </div>
                               </div>
-                              <div style="padding-bottom: 20px;" >
-                              <button class="button rounded-0 primary-bg text-white w-100 btn_1" >Search</button>
-                              </div>
+
                               <div style="padding-bottom: 20px;" >
                               <button id = "gowrite" class="button rounded-0 primary-bg text-white w-100 btn_1" >Write</button>
                               </div>
